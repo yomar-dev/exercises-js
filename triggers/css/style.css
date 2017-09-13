@@ -1,0 +1,26 @@
+
+div.container{
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	min-height: 100vh;
+}
+
+div#item1, div#item2{
+	width: 100px;
+	height: 100px;
+	margin: 15px;
+	font-size: 3em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+div#item1{
+	background: teal;
+}
+
+div#item2{
+	background: skyblue;
+}
