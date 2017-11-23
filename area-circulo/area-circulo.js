@@ -7,8 +7,12 @@ let radio = 6
 }*/
 
 // Forma 2.
+/*let areaCirculo =  function(radio){
+	return Math.PI * (radio * radio)	
+}*/
 
-let areaCirculo =  function(radio){
+// Forma 3.
+let areaCirculo = (radio) => {
 	return Math.PI * (radio * radio)	
 }
 
