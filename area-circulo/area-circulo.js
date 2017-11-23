@@ -1,7 +1,16 @@
-let radio
+let radio = 6
 
-function areaCirculo(radio){
+
+// Forma 1.
+/*function areaCirculo(radio){
 	return Math.PI * (radio * radio)
+}*/
+
+// Forma 2.
+
+let areaCirculo =  function(radio){
+	return Math.PI * (radio * radio)	
 }
 
-console.log(areaCirculo(6))
+//console.log(areaCirculo(6))
+console.log(`El área del circulo de radio ${radio} es: ${areaCirculo(radio)}`)
